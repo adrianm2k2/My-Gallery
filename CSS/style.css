@@ -1,6 +1,7 @@
 /*Hay que eliminar un poco de clases, demasiado css*/
 body {
-    background-color: #EEE0CB;
+    background-color: #BFB7B6;
+    margin: 0;
 }
 
 .portada-logo {
@@ -28,54 +29,32 @@ body {
     border: 2px, solid, black;
     border-radius: 10px;
     margin-top: 30px;
-    background-color: #3C3C3B;
-    color: #F5EDE0;
-}
-
-#muestrasGrandes1 {
-    width: 600px;
-    height: 350px;
-}
-
-#muestrasGrandes2 {
-    width: 600px;
-    height: 350px;
-}
-
-#imgGrande1 {
-    width: 600px;
-    height: 450px;
-}
-
-#imgGrande2 {
-    width: 600px;
-    height: 450px;
-}
-
+    background-color: #3E505B;
+    color: aliceblue;
+} 
 
 h1 {
-    font-size: 60px;
+    font-size: 10VW;
     text-align: center;
-    letter-spacing: 2px;
-    font-weight: 20px;
+    letter-spacing: 1px;
     border: 2px, solid, black;
-    background-color: #896567;
-    height: 80px;
+    background-color: black;
 }
 
 section div {
     display: flex;
     flex-wrap: wrap;
-    gap: 5px;
+    gap: 2px;
     justify-content: space-around;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
 
 div img {
-    height: 250px;
-    width:  250px;
+    width: 40vw;
     border-radius: 5px;
-    margin: 15px;
+    margin-top: 15px;
+    /* max-width: 330px;
+    max-height: 250px; */
 }
 
 div img:hover {
@@ -83,8 +62,7 @@ div img:hover {
 }
 
 video {
-    width: 200px;
-    height: 300px;
+    width: 80vw;
     border-radius: 5px;
 }
 
@@ -98,12 +76,11 @@ video {
     padding: 5px;
 }
 
-
 #preciosVisibles {
     display: block;
     position: fixed;
     bottom: 5px;
-    background-color: bisque;
+    background-color: rgb(214, 237, 255);
     border: 1px, solid, black;
     border-radius: 5px;
     padding: 5px;
@@ -131,4 +108,18 @@ footer p {
 
 footer div {
     padding: 20px;
+}
+
+.ponerLupa {
+    position: relative;
+}
+
+.lupa {
+    position: absolute;
+    width: 15%;
+    height: auto;
+    border-radius: 10px;
+    border: 1px, solid, gray;
+    right: 1px;
+    top: 1px;
 }
